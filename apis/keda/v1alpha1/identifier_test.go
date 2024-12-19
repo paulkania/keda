@@ -33,9 +33,9 @@ func TestGeneratedIdentifierForScaledObject(t *testing.T) {
 		{
 			name:               "camel case",
 			expectedIdentifier: "scaledobject.namespace.name",
-			soName:             "name",
-			soNamespace:        "namespace",
-			soKind:             "scaledobject",
+			soName:             "Name",
+			soNamespace:        "Namespace",
+			soKind:             "ScaledObject",
 		},
 		{
 			name:               "missing namespace",
